@@ -4,9 +4,9 @@ cd Thirdparty/DBoW2
 mkdir build
 cd build
 echo "cmake"
-cmake .. -DCMAKE_BUILD_TYPE=Release -w
+cmake .. -DCMAKE_BUILD_TYPE=Release 
 echo "make"
-make -j -w
+make -j 
 
 cd ../../g2o
 
@@ -15,9 +15,9 @@ echo "Configuring and building Thirdparty/g2o ..."
 mkdir build
 cd build
 echo "cmake"
-cmake .. -DCMAKE_BUILD_TYPE=Release -w
+cmake .. -DCMAKE_BUILD_TYPE=Release 
 echo "make"
-make -j -w
+make -j 
 
 cd ../../../
 
@@ -32,6 +32,6 @@ echo "Configuring and building ORB_SLAM2 ..."
 mkdir build
 cd build
 echo "cmake"
-cmake .. -DCMAKE_BUILD_TYPE=Release  -w
+cmake .. -DCMAKE_BUILD_TYPE=Release  
 echo "make"
-make -j -w
+make -j 
